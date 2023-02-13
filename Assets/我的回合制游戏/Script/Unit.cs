@@ -16,6 +16,15 @@ namespace TurnBased
         public float damage;
         public float empirical;
         #endregion
+
+        #region unitProperty 个体值
+        public float unitHp;
+        public float unitAttack;
+        public float unitDefense;
+        public float unitSpecialAttack;
+        public float unitSpecialDefense;
+        public float unitSpeed;
+        #endregion
         
         #region BasicsProperty 基础属性
         public float basicsMaxHp;//最大血量

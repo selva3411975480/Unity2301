@@ -45,8 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unityName: "\u5A01\u6574\u5929"
-  unitLevel: 1
+  unitLevel: 999
   damage: 1
+  empirical: 0
   basicsMaxHp: 10
   basicsAttack: 0
   basicsDefense: 0
