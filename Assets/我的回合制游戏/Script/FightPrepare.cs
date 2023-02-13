@@ -7,6 +7,9 @@ using UnityEngine;
 /// </summary>
 namespace TurnBased
 {
+    /// <summary>
+    /// 战斗开始时让双防对视
+    /// </summary>
     public class FightPrepare : MonoBehaviour
     {
         public Transform target;
