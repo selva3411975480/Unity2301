@@ -662,8 +662,14 @@
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
+ <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Editor">
+ <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.AdaptivePerformance.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -680,6 +686,12 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.AdaptivePerformance.Simulator.Extension">
+ <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.AdaptivePerformance.Simulator.Extension.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Subsystem.Registration">
+ <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -691,6 +703,9 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.AdaptivePerformance">
+ <HintPath>D:/Users/Lenovo/UnityDatas/Unity2301_Ture/Library/ScriptAssemblies/Unity.AdaptivePerformance.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
