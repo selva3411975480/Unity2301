@@ -1,18 +1,47 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
+public enum EnemyStates
+{
+    GUARD,
+    PATROL,
+    CHASE,
+    DEAD
+}
+
+[RequireComponent(typeof(NavMeshAgent))]
 public class EnemyController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public EnemyStates enemyStates;
+    
+    private NavMeshAgent _agent;
+   
+    private void Awake()
     {
-        
+        _agent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        SwitchStates();
     }
+
+    private void SwitchStates()
+    {
+        switch (enemyStates)
+        {
+            case EnemyStates.GUARD:
+                break;
+            case EnemyStates.PATROL:
+                break;
+            case EnemyStates.CHASE:
+                break;
+            case EnemyStates.DEAD:
+                break;
+        }
+    }
+    
 }
