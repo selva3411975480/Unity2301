@@ -9,6 +9,8 @@ public class MouseManager : Singleton<MouseManager>
     public Texture2D point, doorway, attack, target, arrow;
     private RaycastHit _hitInfo;
 
+    public event Action<GameObject> OnEnemyClicked; 
+    
     protected override void Awake()
     {
         base.Awake();
@@ -42,14 +44,24 @@ public class MouseManager : Singleton<MouseManager>
         
     }
 
+    /// <summary>
+    /// 设置点击不同物体，应对方法
+    /// </summary>
     private void MouseController()
     {
         if (Input.GetMouseButtonDown(0)&& _hitInfo.collider!=null)
         {
-            if (_hitInfo.collider.CompareTag("Ground"))
+            switch (_hitInfo.collider.gameObject.tag)
             {
-                OnMouseClicked?.Invoke(_hitInfo.point);//_hitInfo.point:世界空间中射线命中碰撞体的撞击点。
-            }
+                case "Ground":
+                    OnMouseClicked?.Invoke(_hitInfo.point);//_hitInfo.point:世界空间中射线命中碰撞体的撞击点。
+                    break;
+                case "Enemy":
+                    OnEnemyClicked?.Invoke(_hitInfo.collider.gameObject);
+                    break;
+            } 
+            
+            
         }
     }
     

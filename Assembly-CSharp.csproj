@@ -53,10 +53,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Managers\MouseManager.cs" />
-     <Compile Include="Assets\Scripts\Tools\AnimStrings.cs" />
-     <Compile Include="Assets\Scripts\Characters\Controller\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\Tools\Singleton.cs" />
      <Compile Include="Assets\Scripts\Characters\Controller\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\Tools\AnimStrings.cs" />
+     <Compile Include="Assets\Scripts\Managers\DataManager.cs" />
+     <Compile Include="Assets\Scripts\Characters\Controller\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Character Stats\MonoBehavior\CharacterStats.cs" />
+     <Compile Include="Assets\Scripts\Tools\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Character Stats\ScriptableObject\CharacterData_SO.cs" />
      <None Include="Assets\Assets Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\Assets Packs\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Blend.shader" />
  <Reference Include="UnityEngine">
