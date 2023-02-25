@@ -11,19 +11,19 @@ namespace RobotFighting
     {
         private static Projectile uniqueInstanceProjectile;
 
-        private Projectile()
-        {
-        }
-
-        public static Projectile GetInstance()
-        {
-            if (uniqueInstanceProjectile == null)
-            {
-                uniqueInstanceProjectile = new Projectile();
-            }
-
-            return uniqueInstanceProjectile;
-        }
+        // private Projectile()
+        // {
+        // }
+        //
+        // public static Projectile GetInstance()
+        // {
+        //     if (uniqueInstanceProjectile == null)
+        //     {
+        //         uniqueInstanceProjectile = new Projectile();
+        //     }
+        //
+        //     return uniqueInstanceProjectile;
+        // }
 
         public LayerMask collisionMask;
         private float speed = 10;

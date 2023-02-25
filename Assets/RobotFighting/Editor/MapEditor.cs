@@ -14,7 +14,7 @@ namespace RobotFighting
         {
             base.OnInspectorGUI();
             MapGenerator map = target as MapGenerator;
-            //map.GenerateMap();
+            map.GenerateMap();
         }
     }
 }
